@@ -76,7 +76,7 @@ public class ArrayExtra1 {
         for(int i = 0; i < a.length; i++){
             System.out.print(a[i] + " ");
             lineCount++;
-            if (lineCount >= 3) {
+            if (lineCount == 3) {
                 System.out.println();
                 lineCount = 0;
             }
@@ -104,8 +104,7 @@ public class ArrayExtra1 {
         System.out.println("Maximum: " + getMax(arr));
         System.out.println("Minimum: " + getMin(arr));
         System.out.println("Sum: " + sumValues(arr));
-        double avg = getAverage(arr);
-        System.out.println("Average: " + avg);
+        System.out.println("Average: " + getAverage(arr));
         System.out.println("Number of integers greater than average: "+ greaterThanAverage(arr));
         System.out.println("Number of times subsequent value increases: " + countInc(arr));
         System.out.println("Number of times subsequent value decreases: " + countDec(arr));
