@@ -111,5 +111,4 @@ public class ArrayExtra1 {
         System.out.println("Array with 3 elements per line:");
         printArray3PerLn(arr);
     }
-
 }
